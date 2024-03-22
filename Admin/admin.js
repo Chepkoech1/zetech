@@ -55,6 +55,6 @@ document.getElementById('productForm').addEventListener('submit', function(event
   // Function to handle click event for "Go to Home Page" button
   document.getElementById('goToHomePage').addEventListener('click', function() {
     // Redirect to home page
-    window.location.href = '../home.html';
+    window.location.href = '../customer/home.html';
   });
   

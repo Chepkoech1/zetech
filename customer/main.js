@@ -5,7 +5,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     const password = document.getElementById('login-password').value;
     if (username === 'sandra' && password === '123') {
         alert('Login successful!');
-        window.location.href = 'home.html'; 
+        window.location.href = '../customer/home.html'; 
     } else {
         alert('Login failed. Please check your username and password.');
     }
