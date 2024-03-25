@@ -39,6 +39,12 @@ function fetchProducts() {
             alert('Failed to load products. Please try again later.');
         });
 }
+// Clear the cartItems array of any items with prices 30, 50, and 10.
+cartItems = cartItems.filter(item => item.price !== 30 && item.price !== 50 && item.price !== 10);
+
+// Update the display to reflect the changes made to the cartItems array.
+updateCartIcon();
+updateCartDisplay();
 
 // Function to add a product to the cart
 function addToCart(product) {

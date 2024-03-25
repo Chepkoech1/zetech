@@ -9,8 +9,8 @@ document.getElementById('productForm').addEventListener('submit', function(event
       price: productPrice
     };
   
-    // Add product to database (db.json) using JSON Server
-    fetch('http://localhost:4000/products', { // Corrected port to 4000
+    
+    fetch('http://localhost:4000/products', { 
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -19,12 +19,11 @@ document.getElementById('productForm').addEventListener('submit', function(event
     })
     .then(response => response.json())
     .then(data => {
-      console.log(data); // Handle success or error
+      console.log(data); 
       alert('Product added successfully!');
-      // Clear form fields
+     
       document.getElementById('productName').value = '';
-      document.getElementById('productPrice').value = '';
-      // Refresh order list
+      document.getElementById 
       refreshOrderList();
     })
     .catch(error => {
@@ -39,7 +38,7 @@ document.getElementById('productForm').addEventListener('submit', function(event
       .then(response => response.json())
       .then(products => {
         const productList = document.getElementById('productList');
-        productList.innerHTML = ''; // Clear existing list
+        productList.innerHTML = ''; 
         products.forEach(product => {
           const li = document.createElement('li');
           li.textContent = `${product.name} - Ksh ${product.price}`; // Replace $ with Ksh
@@ -52,9 +51,9 @@ document.getElementById('productForm').addEventListener('submit', function(event
       });
   }
   
-  // Function to handle click event for "Go to Home Page" button
+  
   document.getElementById('goToHomePage').addEventListener('click', function() {
-    // Redirect to home page
+    
     window.location.href = '../customer/home.html';
   });
   
