@@ -11,17 +11,17 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        // Simulate storing data in console
+       
         console.log('Username:', username);
         console.log('Password:', password);
 
-        // Clear form fields
+        
         document.getElementById('username').value = '';
         document.getElementById('password').value = '';
 
-        // Show success message
+        
         alert('Login successful!');
-         // Redirect to admin.html
+       
          window.location.href = './admin.html';
     });
 });

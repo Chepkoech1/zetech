@@ -1,91 +1,47 @@
-/* body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-   
-} */
-
+/* main.css */
 .container {
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-/* Signup/Signin Section */
-.loginbg {
+.login-container {
     display: flex;
     justify-content: space-around;
-    background: linear-gradient(to right, #3498db, #2c3e50);
-    border-radius: 8px;
-    overflow: hidden;
+    width: 400px;
 }
 
 .box {
-    width: 45%;
+    background-color: #f9f9f9;
     padding: 20px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-}
-
-.signin {
-    background: #3498db;
-    
-}
-
-.signup {
-    background: #2c3e50;
-}
-
-/* Form Section */
-.formbx {
-    display: flex;
-    justify-content: space-around;
-}
-
-.form {
-    width: 45%;
-    padding: 20px;
-    background: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-form {
-    display: flex;
-    flex-direction: column;
-}
 
-label {
-    margin-top: 10px;
-}
-
-input,
-select,
-textarea {
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    padding: 10px;
-    background-color: #4caf50;
+.login-button,
+.signup-button {
+    background-color: #ff9100;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
+.login-button:hover,
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+.forgot {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    color: orange;
+    text-decoration: none;
+}
+
+.forgot:hover {
+    text-decoration: underline;
 }
