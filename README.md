@@ -20,10 +20,13 @@ Frontend: HTML, CSS, JavaScript
 Backend: db.json
 
 ## Usage
-User Registration: Sign up for a new account 
-Browse Products: Explore the catalog to view available gas products.
-Place Order: Select the desired gas product, specify quantity, and provide delivery details.
-Make Payment: Proceed to checkout and complete the payment using the integrated payment gateway.
+- User Registration: Sign up for a new account 
+
+- Browse Products: Explore the catalog to view available gas products.
+
+- Place Order: Select the desired gas product, specify quantity, and provide delivery details.
+
+- Make Payment: Proceed to checkout and complete the payment using the integrated payment gateway.
 
 ## License
 MIT License 
