@@ -5,15 +5,15 @@
 ## Features
 - User Registration: Customers can create accounts to access the platform, providing necessary details such as name, address, and contact information.
 
-Product Catalog: Displays available gas products with descriptions, sizes, and prices.
+- Product Catalog: Displays available gas products with descriptions, sizes, and prices.
 
-Order Placement: Users can place orders for cooking gas through the platform, specifying quantity and delivery preferences.
+- Order Placement: Users can place orders for cooking gas through the platform, specifying quantity and delivery preferences.
 ## Installation
-Clone the repository: `git clone https://git@github.com:Chepkoech1/zetech.git`
+- Clone the repository: `git clone https://git@github.com:Chepkoech1/zetech.git`
 
-Navigate to the project directory: `cd zetech`
+- Navigate to the project directory: `cd zetech`
 
-In `../customer/main.html file` start the project with live server
+- In `../customer/main.html file` start the project with live server
 
 ## Technologies Used
 Frontend: HTML, CSS, JavaScript
